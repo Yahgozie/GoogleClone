@@ -1,0 +1,111 @@
+.searchPage_header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchPage_logo{
+    object-fit: contain;
+    height: 32px;
+    margin-top: 6px;
+    margin-right: 50px;
+}
+
+.searchPage_headerBody > .search > .search_input{
+    margin-top: 0;
+    width: 650px;
+    margin: unset;
+    max-width: unset;
+}
+
+.searchPage_Tools {
+    margin-top: 4px!important;
+    /* padding: 10px 15px!important; */
+    background-color: #f8f8f8;
+    border: 1px solid white;
+    text-transform: none!important;
+    color: grey!important;
+    font-size: 15px!important;
+}
+
+.searchPage_Tools :hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    color: #222;
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: none;
+}
+
+.searchPage_options{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.searchPage_options a, .searchPage_optionsRight a{
+    text-decoration: none;
+    color: grey;
+}
+
+.searchPage_optionsRight, .searchPage_optionsLeft{
+    display: flex;
+}
+
+.searchPage_optionsRight{
+    margin-left: 80px;
+}
+
+.searchPage_option{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.searchPage_option a {
+    margin-left: 5px;
+}
+
+.searchPage_result{
+    margin: 30px 0;
+}
+
+.searchPage_resultCount{
+    color: #70757a;
+    font-size: 15px;
+}
+
+.searchPage_results{
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 175px;
+    margin-bottom: 100px;
+}
+
+.searchPage_resultTitle{
+    text-decoration: none;
+}
+
+.searchPage_resultTitle:hover{
+    text-decoration: underline;
+}
+
+.searchPage_resultTitle > h2{
+    font-weight: 500;
+}
+
+.searchPage_resultSnippet{
+    margin-top: 3px;
+}
+
+.searchPage_resultImage{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
